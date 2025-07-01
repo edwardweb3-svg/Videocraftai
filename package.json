@@ -1,0 +1,8 @@
+{
+  "name": "gemini-video-explainer-deployment",
+  "version": "1.0.0",
+  "description": "Dependencies for Netlify Functions",
+  "dependencies": {
+    "@google/genai": "^1.7.0"
+  }
+}

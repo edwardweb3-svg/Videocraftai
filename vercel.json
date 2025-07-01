@@ -1,0 +1,18 @@
+
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/gemini",
+      "dest": "/api/gemini.js"
+    },
+    {
+      "src": "/(.*\\.(js|css|json|png|svg|ico|webmanifest|woff|woff2|eot|ttf|otf))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
